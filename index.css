@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(227, 119, 10, 0.915);
+    background-image:url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg) ;
+    background-size: contain;
+}
+
+
+ol{
+    color:rgb(6, 168, 238);
+    font-size: larger;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+p{
+    color: black;
+    font-size: large;
+}
+
+h1{
+    color: rgb(6, 168, 238);
+    margin-right:380px;
+    margin-left: 9%;
+    padding-bottom: 2%;
+    
+    
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 120;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.popup-toggle {
+    position: relative;
+  }
+  
+  .popup-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red;
+  }
+  
+a{
+ margin-left: 360px;
+ margin-top: 0px;
+}
+    
+h2{
+    color: black;
+    
+}   
+div{
+    
+    height: 120px;
+    background-color: black;
+    margin-right:0px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    border: 3.5px solid white;
+    border-radius: 2px;
+}
+img{
+    border-radius: 50%;
+}
+
+
+#search{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+button{
+    margin-left: 0;
+}
+
+
+#IES{
+    background-image: url(INFORIA-20k4-3-2-2024.gif);
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    
+}
+
+@media screen and (max-width:500px)
+{
+
+img{
+     border-radius: 0%;
+     height: 70px;
+     width: 45px;
+     display: none;
+}
+a{
+  margin-left: 180px;
+  display: none;
+}
+
+div{
+  height: 50px;
+  
+  background-image: url(h.png);
+  background-size: 95%;
+
+  
+}
+}
+
+
+
